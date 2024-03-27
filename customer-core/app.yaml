@@ -1,0 +1,15 @@
+runtime: java21
+
+instance_class: F1
+
+env_variables:
+  BUCKET_NAME: "example-gcs-bucket"
+
+handlers:
+  - url: /.*
+    script: ignore
+    secure: always
+
+network:
+  forwarded_ports:
+    - 8110/tcp

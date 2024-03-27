@@ -5,6 +5,5 @@ instance_class: F1
 
 service: customer-management-frontend
 
-
 env_variables:
-  BUCKET_NAME: "example-gcs-bucket"
+  PORT: 80

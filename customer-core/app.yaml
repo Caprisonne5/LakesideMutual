@@ -6,4 +6,4 @@ instance_class: F1
 service: customer-core
 
 env_variables:
-  BUCKET_NAME: "example-gcs-bucket"
+  PORT: 8110

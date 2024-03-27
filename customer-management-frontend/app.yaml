@@ -1,0 +1,18 @@
+runtime: custom
+
+instance_class: F1
+
+service: customer-management-frontend
+
+
+env_variables:
+  BUCKET_NAME: "example-gcs-bucket"
+
+handlers:
+  - url: /.*
+    script: ignore
+    secure: always
+
+network:
+  forwarded_ports:
+    - 80/tcp

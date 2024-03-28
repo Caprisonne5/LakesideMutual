@@ -1,0 +1,11 @@
+runtime: custom
+env: flex
+
+instance_class: F1
+
+service: customer-management-frontend
+
+env_variables:
+  SERVER_PORT: 8080
+  CUSTOMERCORE_BASEURL: https://customer-core-dot-lakesidemutual-418514.uc.r.appspot.com
+  

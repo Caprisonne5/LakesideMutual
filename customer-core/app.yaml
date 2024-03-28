@@ -6,4 +6,4 @@ instance_class: F1
 service: customer-core
 
 env_variables:
-  PORT: 8110
+  SERVER_PORT: 8080

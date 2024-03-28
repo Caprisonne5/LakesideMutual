@@ -1,0 +1,10 @@
+runtime: custom
+env: flex
+
+instance_class: F1
+
+service: customer-self-service-frontend
+
+env_variables:
+  REACT_APP_CUSTOMER_MANAGEMENT_BACKEND: https://customer-management-backend-dot-lakesidemutual-418514.uc.r.appspot.com
+  REACT_APP_CUSTOMER_SELF_SERVICE_BACKEND: https://customer-self-service-backend-dot-lakesidemutual-418514.uc.r.appspot.com

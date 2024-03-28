@@ -5,3 +5,5 @@ instance_class: F1
 
 service: customer-management-frontend
 
+env_variables:
+  REACT_APP_CUSTOMER_MANAGEMENT_BACKEND: https://customer-management-backend-production.up.railway.app

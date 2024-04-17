@@ -8,4 +8,10 @@ service: customer-management-backend
 env_variables:
   SERVER_PORT: 8080
   CUSTOMERCORE_BASEURL: https://customer-core-dot-lakesidemutual-418514.uc.r.appspot.com
+  SPRING_DATASOURCE_DRIVERCLASSNAME: com.mysql.cj.jdbc.Driver
+  SPRING_DATASOURCE_URL: jdbc:mysql://34.71.44.212:3306/customer-management-backend
+  SPRING_DATASOURCE_USERNAME: lakesiduemutual-user
+  SPRING_DATASOURCE_PASSWORD: e00BalPy<E3$+qyZ
   
+
+
